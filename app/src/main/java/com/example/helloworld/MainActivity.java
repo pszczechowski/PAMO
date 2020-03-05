@@ -56,9 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 String bmiInterpretation = interpretBMI(bmiValue);
 
                 result.setText(String.valueOf("Twój wskażnik BMI to : " + bmiValue + " = " + bmiInterpretation));
-
-
-
             }
         });
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -71,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 
     private float calculateBMI (float weight, float height) {
         return (float) (weight / (height * height));
