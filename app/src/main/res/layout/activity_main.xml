@@ -20,8 +20,12 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+<<<<<<< HEAD
     <include layout="@layout/activity_home_screen"/>
 
+=======
+    <include layout="@layout/content_main" />
+>>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
