@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-<<<<<<< HEAD
     tools:context="com.example.helloworld.HomeScreen">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -30,16 +29,15 @@
         android:layout_height="45dp"
         android:background="#009688"
         android:onClick="calculateBMI"
-=======
     tools:context=".MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="149dp"
         android:layout_height="45dp"
         android:background="#009688"
->>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
         android:text="Wylicz"
         android:textColor="#FFFFFF"
         android:textColorLink="#B1B3B2"
@@ -55,7 +53,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-<<<<<<< HEAD
         android:hint="@string/weight"
         android:inputType="textPersonName"
         android:visibility="visible"
@@ -71,51 +68,36 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/age"
-=======
-        android:hint="Masa"
->>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
         android:inputType="textPersonName"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.386" />
-=======
         app:layout_constraintVertical_bias="0.269" />
->>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
+
 
     <EditText
         android:id="@+id/growth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-<<<<<<< HEAD
         android:hint="@string/height"
-=======
-        android:hint="Wzrost"
->>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.306" />
-=======
         app:layout_constraintVertical_bias="0.388" />
->>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
+
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="170dp"
         android:layout_height="31dp"
-<<<<<<< HEAD
         android:text="@string/app_name"
-=======
-        android:text="Kalkulator BMI"
->>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
         android:textColor="#058B7B"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -127,18 +109,12 @@
 
     <TextView
         android:id="@+id/result"
-<<<<<<< HEAD
         android:layout_width="304dp"
         android:layout_height="99dp"
-=======
-        android:layout_width="274dp"
-        android:layout_height="38dp"
->>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
         android:textColor="#009688"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonScore"
@@ -169,11 +145,5 @@
             android:text="@string/female"
             />
     </RadioGroup>
-
-=======
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
->>>>>>> 6ec62ac2b2a03c9656680814ba298027f9c93d5e
 
 </androidx.constraintlayout.widget.ConstraintLayout>
