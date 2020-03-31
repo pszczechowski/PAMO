@@ -20,7 +20,9 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/activity_home_screen"/>
+    <include
+        layout="@layout/activity_home_screen"
+        android:background="#FFFFFF" />
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
