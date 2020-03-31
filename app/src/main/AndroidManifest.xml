@@ -21,11 +21,20 @@
 
         <activity android:name=".HomeScreen">
         </activity>
+        <activity android:name=".PolandChartScreen">
+        </activity>
+        <activity android:name=".ChinaChartScreen">
+        </activity>
+        <activity android:name=".ItalyChartScreen">
+        </activity>
+        <activity android:name=".CountryScreen">
+        </activity>
         <activity android:name=".QuizScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
     </application>

@@ -21,12 +21,13 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+
     <Button
-        android:id="@+id/startButton"
+        android:id="@+id/poland"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="#009688"
-        android:text="@string/start"
+        android:text="@string/poland"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -35,11 +36,11 @@
         app:layout_constraintVertical_bias="0.486" />
 
     <Button
-        android:id="@+id/quizButton"
+        android:id="@+id/china"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="#009688"
-        android:text="@string/quiz"
+        android:text="@string/china"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -49,11 +50,11 @@
 
 
     <Button
-        android:id="@+id/chartButton"
+        android:id="@+id/italy"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="#009688"
-        android:text="@string/chart"
+        android:text="@string/italy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -62,17 +63,15 @@
         app:layout_constraintVertical_bias="0.715" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello"
+        android:id="@+id/textView2"
+        android:layout_width="387dp"
+        android:layout_height="77dp"
+        android:text="@string/textCountry"
         android:textColor="#009688"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
-
+        app:layout_constraintVertical_bias="0.284"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
