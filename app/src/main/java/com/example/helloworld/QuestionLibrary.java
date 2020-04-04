@@ -8,7 +8,6 @@ public class QuestionLibrary {
             "Czy noszenie maseczek ma sens ?",
             "W jakim województwie w Polsce jest najwięcej zarażonych",
             "Który kraj do tej pory ma najwięcej zgonów w ciągu doby?",
-            "Koniec QUIZU twój wynik to"
 
     };
 
@@ -19,13 +18,12 @@ public class QuestionLibrary {
             {"Polska", "Chiny", "Włochy"},
             {"Tak", "Nie", "Zależy czy jesteś chory czy nie"},
             {"Pomorskie", "Małopolskie", "Mazowieckie"},
-            {"Włochy", "USA", "Hiszpania"},
             {"Włochy", "USA", "Hiszpania"}
     };
 
 
 
-    private String[] CorrectAnswers = {"Ból brzucha", "50+", "Chiny", "Zależy czy jesteś chory czy nie", "Mazowieckie", "Włochy", "Włochy"};
+    private String[] CorrectAnswers = {"Ból brzucha", "50+", "Chiny", "Zależy czy jesteś chory czy nie", "Mazowieckie", "Włochy"};
 
 
 

@@ -18,6 +18,7 @@ public class QuizScreen extends AppCompatActivity {
     private Button ButtonChoice2;
     private Button ButtonChoice3;
     private Button ButtonQuit;
+    private TextView resultQuiz;
 
     private String Answer;
     private int Score = 0;
@@ -33,7 +34,8 @@ public class QuizScreen extends AppCompatActivity {
         ButtonChoice1 = (Button)findViewById(R.id.choice1);
         ButtonChoice2 = (Button)findViewById(R.id.choice2);
         ButtonChoice3 = (Button)findViewById(R.id.choice3);
-        ButtonQuit = (Button) findViewById(R.id.quit) ;
+        ButtonQuit = (Button) findViewById(R.id.quit);
+        resultQuiz = (TextView)findViewById(R.id.resultQuiz);
 
         updateQuestion();
 
@@ -99,7 +101,8 @@ public class QuizScreen extends AppCompatActivity {
         });
 
     }
-    private void updateQuestion(){
+    private void updateQuestion() {
+        if(QuestionNumber <= 5) {
         QuestionView.setText(mQuestionLibrary.getQuestion(QuestionNumber));
         ButtonChoice1.setText(mQuestionLibrary.getChoice1(QuestionNumber));
         ButtonChoice2.setText(mQuestionLibrary.getChoice2(QuestionNumber));
@@ -107,6 +110,9 @@ public class QuizScreen extends AppCompatActivity {
 
         Answer = mQuestionLibrary.getCorrectAnswer(QuestionNumber);
         QuestionNumber++;
+    }else {
+        resultQuiz.setText("Twój wynik to :" + Score);
+    }
     }
     public void openMain() {
         Intent intent = new Intent(this, MainActivity.class);
